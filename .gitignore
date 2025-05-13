@@ -13,7 +13,10 @@ out/
 *.pyc
 *.pyo
 __pycache__/
-
+cert/
+certs/
+certificate/
+certificates/
 # ESP-IDF managed components
 managed_components/
 
