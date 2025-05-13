@@ -9,6 +9,7 @@ build/
 *.map
 *.hex
 *.uf2
+sdkconfig.old
 out/
 *.pyc
 *.pyo
