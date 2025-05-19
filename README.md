@@ -73,7 +73,7 @@ chip-cert gen-cd \
   --dac-origin-vendor-id 0x131B \
   --dac-origin-product-id 0x8045
 ```
-# Example certification ID: CSA00000SWC00000-01
+## Example certification ID: ZIG20141ZB330001-24, CSA00000SWC00000-01
 
 # Run esp-matter manufacturing tool
 ```shell
