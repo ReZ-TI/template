@@ -24,7 +24,7 @@ endif(DEFINED ENV{RMAKER_PATH})
 if(NOT DEFINED ENV{ESP_MATTER_PATH})
     message(FATAL_ERROR "Please set ESP_MATTER_PATH to the path of esp-matter repo")
 endif(NOT DEFINED ENV{ESP_MATTER_PATH})
-
+#choose device HAL accordingly
 set(ESP_MATTER_DEVICE_PATH components/device_hal/device/esp32h2_occupancy)
 
 set(ESP_MATTER_PATH $ENV{ESP_MATTER_PATH})
@@ -52,7 +52,7 @@ if("${IDF_VERSION_MAJOR}.${IDF_VERSION_MINOR}" VERSION_LESS_EQUAL "4.4")
     list(APPEND EXTRA_COMPONENT_DIRS "${RMAKER_PATH}/components/esp-insights/components")
 endif()
 
-project(rezti_occupancy_v1)
+project(name-your-project-here)
 
 idf_build_set_property(CXX_COMPILE_OPTIONS "-std=gnu++17;-Os;-DCHIP_HAVE_CONFIG_H" APPEND)
 idf_build_set_property(C_COMPILE_OPTIONS "-Os" APPEND)
